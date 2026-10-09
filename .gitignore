@@ -1,0 +1,16 @@
+# Secrets - never upload
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Runtime state
+monitor_state.json
+inbox/
+
+# One-off helper scripts
+add_slack.py
+make_slack.py
+customer_pulse.py
